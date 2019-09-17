@@ -23,6 +23,12 @@ This is a Rails 6 application that authenticates users using Authy and Clearance
 * Start up the application.
 
     `$ rails server`
+    
+**Configuring Authy**
+
+Grab your production API key from your[console](https://www.twilio.com/console/authy) and export it in your environment.
+
+ `$ export AUTHY_API_KEY=Your Authy API Key`
 
 **Setting up the webhook URL.**
 
